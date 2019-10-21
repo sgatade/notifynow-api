@@ -1,0 +1,26 @@
+{
+  "name": "notifynow-api",
+  "version": "1.0.0",
+  "description": "API for NotifyNow platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/end.env node ./src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgatade/notifynow-api.git"
+  },
+  "author": "SG@2019",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgatade/notifynow-api/issues"
+  },
+  "homepage": "https://github.com/sgatade/notifynow-api#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  }
+}
