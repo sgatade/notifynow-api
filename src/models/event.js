@@ -2,11 +2,14 @@ const mongoose = require("mongoose");
 
 const eventSchema = new mongoose.Schema({
     title: {
-        type: String,
+        type: String
+    },
+    message: {
+        type: String
     },
     author:  {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
+        // type: mongoose.Schema.Types.ObjectId,
+        type: String
     },
     updates: [{
         title: {
