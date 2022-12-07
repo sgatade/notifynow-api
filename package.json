@@ -20,7 +20,7 @@
   "homepage": "https://github.com/sgatade/notifynow-api#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.7.6"
   }
 }
